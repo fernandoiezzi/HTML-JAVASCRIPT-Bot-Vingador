@@ -1,0 +1,302 @@
+body {
+    margin:0;
+    padding:0;
+    color: rgb(243, 239, 239);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    background: black url(../img/matrixbot.jpg);
+    background-size: 1800px 1000px;
+    background-repeat:no-repeat;
+    
+    
+    
+}
+
+.container{
+    margin:1px auto;
+    width: 800px;
+    text-align:left;
+    background:black;
+    border:groove white 1px;
+}
+
+.header { 
+    height: 45px;
+    width: 100%;
+    position:relative;
+    border-bottom:1px solid darkblue;
+}
+
+.mainnav{ 
+    background: black;
+    color:#ecece5;
+    padding:50px 0px;
+    margin-left: 0px;
+    
+}
+
+.mainnav li{ 
+    display:inline;
+     padding:0 18px;
+     border-right: 1px solid rgb(24, 24, 224);
+     margin-left:0;
+     
+}
+.mainnav li a {
+    text-decoration:none;
+    color:#e5eee8;
+    font-size: 14px;
+    
+}
+
+.mainnav li a:hover{
+    text-decoration:none;
+    color: #dee9eb;
+    background-color:#0d22db;
+    
+
+
+}
+
+.contents {
+    float: left;
+    width: 500px;
+    margin: 0 0 0 10px;
+    text-align:center
+}
+
+.footer {
+    clear:both;
+    color: #f6f7f2;
+    text-align:center;
+    background-color: mediumblue;
+ }
+
+.carrossel {
+    display: inline-block;
+    margin-top:5%;
+    padding: 2%;
+    border-radius:1em;
+    background:darkblue;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 1em;
+}
+.botheader {
+    width:800px;
+    height:103px;
+    
+}
+.menul{
+    float:right;
+    width:250px;
+    display:inline-block;
+    padding-top:10px;
+    padding-right:15px;
+    overflow-y:scroll;
+    height: 550px;
+  
+   
+
+    
+    
+}
+iframe {
+    border-radius:1em;
+    border-color:#0d22db;
+    border-width:2px;
+   
+}
+iframe:hover{
+    text-decoration:none;
+    border-color: #ecece5;
+    border-width:2px;
+}
+
+.contentsportal{
+    float:center;
+    width:"500px";
+    margin: -25px 0 0 0;
+    text-align:center ;
+}
+.feedback{
+    border-width:4px;
+    border-style:solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    border-color: rgb(134, 169, 187);
+    
+}
+input:hover{
+    border-width: 2px;
+    border-style:double;
+    border-color: rgb(17, 8, 145);
+}
+
+textarea:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color: rgb(17, 8, 145);
+
+}
+
+.galeriadobot{
+    margin-left: 5%;
+    margin-top: -5%;
+    border-color: #0d22db;
+    padding: 10px;
+    overflow-y:scroll;
+    height: 550px;
+    
+}
+img.album{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-style:solid;
+    border-color: #0d22db;
+    border-width: 1px;
+}
+
+img.album:hover{
+    border-color: white;
+    border-style:dashed ;
+    
+}
+.contentsloja{
+    float: center;
+    width: 800px;
+    margin-left: -2%;
+    margin-top: -7%;
+    text-align:center;
+    overflow-y: scroll;
+    height: 550px;
+}
+img.imgloja{
+    height: 150px;
+    width: 150px;
+    border-radius: 0px;
+    
+}
+table{
+    float: center;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-color: blue;
+}
+
+caption{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+td:hover{
+    background-color: blue;
+    color:white;
+    border-color: rgb(245, 244, 244);
+  }
+
+figcaption{
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paracomprar:hover{
+    border-width: 8%;
+    border-style:groove;
+    border-color:black;
+
+}
+.zap:hover{
+    background: rgb(10, 10, 206);
+    border-radius: 0em;
+    border-width: 2px;
+    border-color:white;
+    border-style:solid;
+}
+.buttonloja{
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.loginloja{
+    width:550px;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-color:cyan;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   border-width: 1px;
+   border-style: solid;
+   
+   
+}
+.textloja{
+    text-align: center;
+    
+}
+.textlojasenha{
+    text-align: center;
+    margin-left: 13px;
+
+    
+}
+
+.formsorteio{
+    margin-top: -5%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    border-color: aqua;
+    border-style: solid;
+    width:550px;
+    text-align:center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.form-control{
+    text-align: center;
+    margin-left: 13px;
+
+}
+
+.form-controlsenha{
+    text-align: center;
+    margin-left: 43px;
+}
+
+.contentstermo{
+    margin-left: 0%;
+    margin-top:-7%;
+    padding-right:5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:justify
+}
+
+.voltarsorteio{
+    margin-left:28%;
+    text-decoration: none;
+    color:white;
+    
+}
+
+.voltarsorteio:hover{
+    background-color: #0d22db;
+    
+}
+
+.termo{
+    text-decoration: none;
+    color:white;
+}
+.termo:hover{
+    background-color: #0d22db;
+}
+

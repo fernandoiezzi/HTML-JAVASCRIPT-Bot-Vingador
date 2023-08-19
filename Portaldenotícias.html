@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Bot Vingador</title>
+    <link rel="icon" type="image.jpeg" href="img/botvingador.jpeg" />
+</head>
+<body>
+    <div class="container">
+        <div class="header"> <img class="botheader" src="img/botheader.JPG"></img>
+        </div>
+        <div class="mainnav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/channel/UCp2ShCYBiN3umsL3p9JWZbg">Youtube</a></li>
+                <li><a target="_blank" href="https://www.twitch.tv/botvingador">Twitch</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/botvingador">Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/botvingador/">Instagram</a></li>
+                <li><a href="Loja do Bot.html">Loja Virtual</a></li>
+                <li><a href="Portaldenotícias.html">Portal de Notícias</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="CentrodeAjuda.html">Central de ajuda</a></li>
+                <li><a href="sorteio.html">Sorteio</a></li>
+                </ul>
+        </div>
+        <div class="contentsportal">
+            <form name="deasuaopniao" onsubmit="msg();">
+                <fieldset class="feedback" >
+                    <legend>Dê a sua opinião</legend>
+                    <label>Informe o seu nome:</label>
+                    <input required onblur="caixaalta();" type="text" name="nome" id="nome" placeholder="Digite o seu nome completo">
+                    <br><br>
+                    
+                    <label>Qual tipo de notícia gostaria de ver aqui?</label>
+                    <select name="assunto" id="assunto">
+                        <option value="0">Selecione o tipo de notícia</option>
+                        <option value="1">Notícias da E3</option>
+                        <option value="2">Principais notícias da comunidade gamer</option>
+                        <option value="3">Jogos mais esperados do ano</option>
+                        <option value="4">Críticas de jogos</option>
+                        <option value="5">Últimas notícias</option>
+                    </select>
+                    <br><br>
+
+                    <label>Deixe o seu feedback:</label>
+                    <br>
+                    <textarea name="texto" id="texto" rows="5" cols="50" maxlength="250" placeholder="Escreva o seu feedback!"></textarea>
+                    <br><br>
+
+                    <input type="submit" name="enviar" id="enviar" value="ENVIAR" >
+                    <input type="reset" name="limpar" id="limpar" value="LIMPAR">
+                </fieldset>
+
+            
+        </div>
+       <figure class="carrossel">
+        <marquee behavior="alternate">
+            <img src="img/botface.jpg">
+            <img src="img/botgta.jpg">
+            <img src="img/botmk.jpg">
+            <img src="img/Botperfil.jpg">
+            <img src="img/fotobot.jpg">
+            <img src="img/ps4.JPG">
+            <img src="img/festa.JPG">
+            <img src="img/left4dead.JPG">
+            <img src="img/pcsimulator.JPG">
+            <img src="img/Amongus.JPG">
+            <img src="img/finishhim.JPG">
+        </marquee>
+        </figure>
+        <div class="footer">
+        Construída em 15/12/2021 por Fernando Iezzi
+           </div>
+
+
+
+    </div>
+</body>
+</html>
+<script type="text/javascript" language="javascript" src="JS/funcao.js">
+    
+</script>

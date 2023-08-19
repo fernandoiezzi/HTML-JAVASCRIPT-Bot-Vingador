@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Bot Vingador</title>
+    <link rel="icon" type="image.jpeg" href="img/botvingador.jpeg" />
+</head>
+<body>
+    <div class="container">
+        <div class="header"> <img class="botheader" src="img/botheader.JPG"></img>
+        </div>
+        <div class="mainnav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/channel/UCp2ShCYBiN3umsL3p9JWZbg">Youtube</a></li>
+                <li><a target="_blank" href="https://www.twitch.tv/botvingador">Twitch</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/botvingador">Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/botvingador/">Instagram</a></li>
+                <li><a href="Loja do Bot.html">Loja Virtual</a></li>
+                <li><a href="Portaldenotícias.html">Portal de Notícias</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="CentrodeAjuda.html">Central de ajuda</a></li>
+                <li><a href="sorteio.html">Sorteio</a></li>
+            </ul>
+            <div class="loginloja">
+               <form class="restrito" name="login" onsubmit="clicando();">
+                   <legend>Acesso á loja</legend>
+                   <label class="labelloja">Usuário:</label>
+                   <input required class="textloja" type="text" id="nome" name="nome" size="29" placeholder="Digite seu usuário">
+                    <br>
+                    <label class="labelloja"> Senha:</label>
+                    <input required class="textlojasenha" type="password" id="senha" name="senha" size="29" placeholder="Informe a senha">
+                    <br>
+                    <input class="buttonloja" type="button" id="casdastrar" name="cadastrar" size="10" value="cadastrar">
+                    <input class="buttonloja" type="submit" id="acessar" name="acessar" size="10" value="acessar">
+                </form>
+            </div>
+            </div>
+        <div class="contentsloja">
+            <figure class="tabelaloja">
+            <table border=1>
+                <caption>Tabela de Produtos</caption> 
+                <tr>
+                    <td>
+                        
+                       <figure>
+                        <figcaption>
+                        Livro - God of War</figcaption>
+                        <a target="_blank" href="Loja do Bot/livro god of war.jpg">
+                        <img class="imgloja" src="Loja do Bot/livro god of war.jpg"></a>
+                        R$ 51,03</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                       </figure>
+                    </td> 
+                     <td>
+                        <figure>
+                            <figcaption>
+                                Assassins Creed - Livro Oficial do Filme</figcaption>
+                            <a target="_blank" href="Loja do Bot/assassinscreed.png">
+                            <img class="imgloja" src="Loja do Bot/assassinscreed.png"></a>
+                        R$ 19,95</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                A história dos videogames</figcaption>
+                            <a target="_blank" href="Loja do Bot/livro_a_historia_dos_videogames_volume_2_7_1_20200423173427.png">
+                            <img class="imgloja" src="Loja do Bot/livro_a_historia_dos_videogames_volume_2_7_1_20200423173427.png"></a>
+                        R$ 70,17</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                Livro - Game Over</figcaption>
+                            <a target="_blank" href="Loja do Bot/gameoverlivro.jpg">
+                            <img class="imgloja" src="Loja do Bot/gameoverlivro.jpg"></a>
+                        R$ 39,92</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure> 
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                               Livro - Manual de sobrevivência para pais gamers</figcaption>
+                                <a target="_blank" href="Loja do Bot/geraãogamer.jpg">
+                            <img class="imgloja" src="Loja do Bot/geraãogamer.jpg"></a>
+                        R$ 39,90</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure> 
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                Box - The witcher</figcaption>
+                            <a target="_blank" href="Loja do Bot/box the witcher.jpg">
+                            <img class="imgloja" src="Loja do Bot/box the witcher.jpg"></a>
+                        R$ 371.90</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                HQ - Justiceiro: No princípio</figcaption>
+                            <a target="_blank" href="Loja do Bot/no princípio.jpg">
+                            <img class="imgloja" src="Loja do Bot/no princípio.jpg"></a>
+                        R$ 159,00</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure> 
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                HQ - Justiceiro: Bem-vindo de volta Frank</figcaption>
+                            <a target="_blank" href="Loja do Bot/justiceiro_bem-vindo-de-volta-frank.jpg">
+                            <img class="imgloja" src="Loja do Bot/justiceiro_bem-vindo-de-volta-frank.jpg"></a>
+                        R$ 50,00</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure> 
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                HQ - Piada Mortal</figcaption>
+                            <a target="_blank" href="Loja do Bot/justiceiro_bem-vindo-de-volta-frank.jpg">
+                            <img class="imgloja" src="Loja do Bot/piadamortal.jpg"></a>
+                        R$ 29,90</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                HQ - Batman que ri</figcaption>
+                            <a target="_blank" href="Loja do Bot/batman que ri.jpg">
+                            <img class="imgloja" src="Loja do Bot/batman que ri.jpg"></a>
+                        R$ 60,00</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                HQ - Batman que ri - #2</figcaption>
+                            <a target="_blank" href="Loja do Bot/batmanqueri2.jpg">
+                            <img class="imgloja" src="Loja do Bot/batmanqueri2.jpg"></a>
+                        R$ 45,90</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>
+                                HQ - Batman que ri - #3</figcaption>
+                            <a target="_blank" href="Loja do Bot/batmanqueri3.jpg">
+                            <img class="imgloja" src="Loja do Bot/batmanqueri3.jpg"></a>
+                        R$ 10,90</img><p>
+                        <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td><figure>
+                        <figcaption>
+                            Caneca - Soco inglês - justiceiro</figcaption>
+                    <a target="_blank" href="Loja do Bot/xicara justiceiro.jpg">
+                    <img class="imgloja" src="Loja do Bot/xicara justiceiro.jpg"></a>
+                    R$ 59,90</img><p>
+                    <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR"> 
+                    </figure></td>
+                    <td>
+                        <figure>
+                        <figcaption>
+                            Caneca - Deadpool</figcaption>
+                     <a target="_blank" href="Loja do Bot/canecadeadpool.jpg">
+                    <img class="imgloja" src="Loja do Bot/canecadeadpool.jpg"></a>
+                    R$ 45,60</img><p>
+                    <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR"> 
+                    </figure>
+                    </td>
+                    <td>
+                    <figure>
+                    <figcaption>
+                    Controle de PS4 - Camuflado</figcaption> 
+                    <a target="_blank" href="Loja do Bot/controle ps4.jpg">
+                    <img class="imgloja" src="Loja do Bot/controle ps4.jpg"></a>
+                    R$ 319,00</img><p>
+                    <input class="paracomprar" type="button" name="comprar" id="comprar" value="COMPRAR">  
+                    </figure>
+                    </td>
+                </tr>
+            </table>
+            </figure>
+            </div>
+        <div class="footer">
+        Construída em 15/12/2021 por Fernando Iezzi
+           </div>
+
+
+
+    </div>
+</body>
+</html>
+<script>
+    function clicando(){
+        if(document.login.nome.value=="bot" && document.login.senha.value=="123"){
+       alert("Bem-vindo á minha loja virtual, " + document.login.nome.value + "!");
+    }
+    else{
+        alert("Usuário ou senha incorretas, verifique novamente ou clique no botão cadastrar.")
+    }
+}
+</script>
